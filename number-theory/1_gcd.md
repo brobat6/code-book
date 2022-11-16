@@ -18,6 +18,7 @@ int gcd(int a, int b) {
 ### Extended Euclidean Algorithm for GCD
 
 In addition to finding the gcd, also finds integers $x$ and $y$ satisfying: 
+
 $$ ax + by = gcd(a, b) $$
 
 * For slightly faster versions of both GCD and Euclidean Algo, see [this](1A_gcd_fast.cpp).
