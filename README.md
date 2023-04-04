@@ -5,6 +5,7 @@ This library is still in development, and will eventually contain all useful cod
 
 - **[LittleRedBook.pdf](LittleRedBook.pdf)** - ICPC code book used by our team for Regionals + Asia West finals. Forked from [KACTL](https://github.com/kth-competitive-programming/kactl).
 
+- **[snippet-generator.py](snippet-generator.py)** - Snippet generator for VSCode, created by me. Creates code snippets of all .cpp files in this repository. 
 
 ### Graph
 
