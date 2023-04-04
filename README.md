@@ -1,2 +1,17 @@
 # code-book
-This library is still in development, and will eventually contain all useful code snippets, algorithms, and math stuff for coding contests. 
+This library is still in development, and will eventually contain all useful code snippets, algorithms, and math stuff for coding contests.
+
+- **[template.cpp](template.cpp)** - My extended starter template for coding contests. Not used much, I prefer the basic 3-line template.
+
+- **[LittleRedBook.pdf](LittleRedBook.pdf)** - ICPC code book used by our team for Regionals + Asia West finals. Forked from [KACTL](https://github.com/kth-competitive-programming/kactl).
+
+
+### Graph
+
+### Misc
+
+- **[NextGreaterElement.cpp](misc/NextGreaterElement.cpp)** - Function to calculate (next/previous) (greater/smaller) elements for each element in an array in $O(N)$ time. 
+
+### Number Theory
+
+- **[Mint.cpp](number-theory/Mint.cpp)** - Modulo Wrapper class. Can perform all basic arithmetic operations modulo a certain integer.
