@@ -9,6 +9,8 @@ This library is still in development, and will eventually contain all useful cod
 
 ### Graph
 
+- **[DSU.cpp](graph/DSU.cpp)** - DSU Class (without rollback)
+
 ### Misc
 
 - **[NextGreaterElement.cpp](misc/NextGreaterElement.cpp)** - Function to calculate (next/previous) (greater/smaller) elements for each element in an array in $O(N)$ time. 
