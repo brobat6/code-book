@@ -19,10 +19,10 @@ def write(path : str):
     F.write(f'\t\t"prefix" : "{prefix}",\n')
     F.write('\t\t"body" : [\n')
     can_start = False
-    if(path == "template.cpp\\"):
+    if(path == "template.cpp/"):
         can_start = True
     for line in G.readlines():
-        if(line.find("using namespace std;") != -1):
+        if(line.find("using namespace std;") != -1 and not can_start):
             can_start = True
             continue
         if(can_start):
@@ -51,11 +51,11 @@ def parse(path : str):
         # Directory
         if(len(path) == 0):
             for sub in os.listdir():
-                new_path = path + sub + "\\"
+                new_path = path + sub + "/"
                 parse(new_path)
         else:
             for sub in os.listdir(path):
-                new_path = path + sub + "\\"
+                new_path = path + sub + "/"
                 parse(new_path)    
     else:
         # File
