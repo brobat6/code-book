@@ -11,6 +11,8 @@ This library is still in development, and will eventually contain all useful cod
 
 - **[DSU.cpp](graph/DSU.cpp)** - DSU Class (without rollback)
 
+- **[SCC.cpp](graph/SCC.cpp)** - Class to find Strongly Connected Components of a directed graph.
+
 ### Misc
 
 - **[NextGreaterElement.cpp](misc/NextGreaterElement.cpp)** - Function to calculate (next/previous) (greater/smaller) elements for each element in an array in $O(N)$ time. 
