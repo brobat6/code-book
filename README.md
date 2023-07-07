@@ -15,7 +15,9 @@ This library is still in development, and will eventually contain all useful cod
 
 ### Misc
 
-- **[NextGreaterElement.cpp](misc/NextGreaterElement.cpp)** - Function to calculate (next/previous) (greater/smaller) elements for each element in an array in $O(N)$ time. 
+- **[NextGreaterElement.cpp](misc/NextGreaterElement.cpp)** - Function to calculate (next/previous) (greater/smaller) elements for each element in an array in $O(N)$ time.
+
+- **[RNG.cpp](misc/RNG.cpp)** - Random Number Generator.
 
 ### Number Theory
 
